@@ -1,1 +1,1 @@
-# rimfrost-framework-individ-adapter
+# rimfrost-adapter-individ

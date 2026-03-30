@@ -1,4 +1,4 @@
-package se.fk.rimfrost.framework.individ.model;
+package se.fk.rimfrost.adapter.individ.model;
 
 import org.immutables.value.Value;
 

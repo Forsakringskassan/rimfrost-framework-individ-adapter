@@ -1,6 +1,6 @@
-# rimfrost-framework-individ-adapter changelog
+# rimfrost-adapter-individ changelog
 
-Changelog of rimfrost-framework-individ-adapter.
+Changelog of rimfrost-adapter-individ.
 
 ## 0.0.1 (2026-03-13)
 

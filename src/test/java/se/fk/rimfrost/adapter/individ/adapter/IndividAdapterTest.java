@@ -1,4 +1,4 @@
-package se.fk.rimfrost.framework.individ.adapter;
+package se.fk.rimfrost.adapter.individ.adapter;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import io.quarkus.test.component.QuarkusComponentTest;
@@ -8,7 +8,7 @@ import jakarta.ws.rs.WebApplicationException;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import se.fk.rimfrost.framework.individ.model.ImmutableIndivid;
+import se.fk.rimfrost.adapter.individ.model.ImmutableIndivid;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 @QuarkusComponentTest(value =
 {
-      se.fk.rimfrost.framework.individ.adapter.IndividMapper.class
+      IndividMapper.class
 })
 public class IndividAdapterTest
 {

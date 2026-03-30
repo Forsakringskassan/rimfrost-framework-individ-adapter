@@ -1,8 +1,8 @@
-package se.fk.rimfrost.framework.individ.adapter;
+package se.fk.rimfrost.adapter.individ.adapter;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import se.fk.rimfrost.framework.individ.model.ImmutableIndivid;
-import se.fk.rimfrost.framework.individ.model.Individ;
+import se.fk.rimfrost.adapter.individ.model.ImmutableIndivid;
+import se.fk.rimfrost.adapter.individ.model.Individ;
 import se.fk.rimfrost.api.individ.jaxrsspec.controllers.generatedsource.model.GetIndividResponse;
 
 @ApplicationScoped
